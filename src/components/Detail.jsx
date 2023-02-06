@@ -30,6 +30,7 @@ export const Colors = {
   fairy: "#ffaec9",
 };
 
+// affichage le detail d'un pokemon 
 const width = Dimensions.get("window").width;
 
 export const Detail = ({ route }) => {

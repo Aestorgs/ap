@@ -8,6 +8,7 @@ import { ContextSettings } from "./src/components/Context";
 import React from "react";
 import { Settings } from "./src/components/Settings";
 
+// utilisation des routes 
 const stack = createNativeStackNavigator();
 
 export default function App() {

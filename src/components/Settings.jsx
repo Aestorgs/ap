@@ -2,6 +2,8 @@ import React from "react"
 import { Button, View } from "react-native"
 import { ContextSettings } from "./Context"
 
+// affichage des parametres
+
 export const Settings = () => {
     const {setLimit , setOffset} = React.useContext(ContextSettings)
 

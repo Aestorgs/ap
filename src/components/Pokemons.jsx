@@ -9,6 +9,8 @@ import {
 import { Pokemon } from "./Pokemon";
 import { ContextSettings } from "./Context";
 
+// affichage des pokemons rechercher et les filter 
+
 const width = Dimensions.get("window").width;
 export const Pokemons = ({ navigation }) => {
   const {offset , limit} = React.useContext(ContextSettings)

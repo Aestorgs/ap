@@ -1,5 +1,6 @@
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
+// selectionée un pokemon 
 export const Pokemon = ({ item, nav }) => {
   const index = item.url.split("/")[6];
   const image = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${index}.png`;
